@@ -63,19 +63,6 @@ export default [
       "object-curly-newline": 0,
       "react/jsx-filename-extension": 0,
       "react/jsx-one-expression-per-line": 0,
-      "jsx-a11y/click-events-have-key-events": 0,
-      "jsx-a11y/alt-text": 0,
-      "jsx-a11y/no-autofocus": 0,
-      "jsx-a11y/no-static-element-interactions": 0,
-      "react/no-array-index-key": 0,
-      "jsx-a11y/anchor-is-valid": [
-        "error",
-        {
-          components: ["Link"],
-          specialLink: ["to", "hrefLeft", "hrefRight"],
-          aspects: ["noHref", "invalidHref", "preferButton"],
-        },
-      ],
     },
   },
 ];
