@@ -9,8 +9,6 @@ import { Actors, MovieInformation, Movies, Profile, NavBar } from "./";
 const App = () => {
   const classes = useStyles();
 
-
-
   return (
     <div className={classes.root}>
       <CssBaseline />
