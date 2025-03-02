@@ -12,7 +12,6 @@ import useStyles from "./styles";
 
 const Movie = ({ movie, i }) => {
     const classes = useStyles();
-    console.log(Movie, i);
 
     return (
         <Grid
