@@ -43,8 +43,6 @@ const SideBar = ({ setMobileOpen }) => {
         (state) => state.currentGenreOrCategory
     );
 
-    console.log(genreIdOrCategoryName);
-
     return (
         <>
             <Link to="/" className={classes.imageLink}>
@@ -90,7 +88,7 @@ const SideBar = ({ setMobileOpen }) => {
                         <CircularProgress size="4rem" />
                     </Box>
                 ) : (
-                    data.genres.map(({ name, id }) => (
+                    data?.genres.map(({ name, id }) => (
                         <Link key={id} className={classes.links} to="/">
                             <ListItem
                                 onClick={() => {
